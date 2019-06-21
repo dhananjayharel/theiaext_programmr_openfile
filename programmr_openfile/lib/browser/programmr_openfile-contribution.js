@@ -135,8 +135,8 @@ var Programmr_openfileCommandContribution = /** @class */ (function () {
                     case 2:
                         e_1 = _a.sent();
                         //console.log(e);
-                        console.log("exceptio .. no config open default index.html file");
-                        this.quickFileOpenService.openFile(new uri_1.default(path + "/src/index.html"));
+                        console.log("exceptio .. no config open default index.js file");
+                        this.quickFileOpenService.openFile(new uri_1.default(path + "/src/index.js"));
                         this.runTerminalCommand("npm install && npm start");
                         return [3 /*break*/, 3];
                     case 3: return [2 /*return*/];

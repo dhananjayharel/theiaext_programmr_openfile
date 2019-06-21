@@ -96,8 +96,8 @@ export class Programmr_openfileCommandContribution implements FrontendApplicatio
 				 
 			}catch(e){
 			 //console.log(e);
-			 console.log("exceptio .. no config open default index.html file")
-			 this.quickFileOpenService.openFile(new URI(path+"/src/index.html"));
+			 console.log("exceptio .. no config open default index.js file")
+			 this.quickFileOpenService.openFile(new URI(path+"/src/index.js"));
 			 this.runTerminalCommand("npm install && npm start");			 			 
 			}	 
 	}
