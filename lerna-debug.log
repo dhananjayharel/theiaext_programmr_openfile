@@ -1,0 +1,211 @@
+0 silly input [ 'prepare' ]
+1 silly flags { _: [ 'run' ], script: 'prepare', args: [] }
+2 verbose rootPath /home/ubuntu/theia2/theia/programmr_openfile
+3 info version 2.4.0
+4 silly existsSync /home/ubuntu/theia2/theia/programmr_openfile/VERSION
+5 silly initialize attempt
+6 silly initialize success
+7 silly execute attempt
+8 silly runScriptInPackageStreaming [ 'prepare', [], 'programmr_openfile' ]
+9 silly getExecOpts { cwd:
+9 silly getExecOpts    '/home/ubuntu/theia2/theia/programmr_openfile/programmr_openfile' }
+10 silly runScriptInPackageStreaming [ 'prepare', [], 'browser-app' ]
+11 silly getExecOpts { cwd: '/home/ubuntu/theia2/theia/programmr_openfile/browser-app' }
+12 silly runScriptInPackageStreaming [ 'prepare', [], 'electron-app' ]
+13 silly getExecOpts { cwd: '/home/ubuntu/theia2/theia/programmr_openfile/electron-app' }
+14 error execute callback with error
+15 error Error: Command failed: npm run prepare
+15 error Error: webpack exited with an unexpected code: 2.
+15 error     at ChildProcess.<anonymous> (/home/ubuntu/theia2/theia/programmr_openfile/node_modules/@theia/application-manager/lib/application-process.js:66:28)
+15 error     at ChildProcess.emit (events.js:189:13)
+15 error     at maybeClose (internal/child_process.js:970:16)
+15 error     at Socket.stream.socket.on (internal/child_process.js:389:11)
+15 error     at Socket.emit (events.js:189:13)
+15 error     at Pipe._handle.close (net.js:597:12)
+15 error npm ERR! code ELIFECYCLE
+15 error npm ERR! errno 1
+15 error npm ERR! electron-app@0.0.0 prepare: `theia build --mode development`
+15 error npm ERR! Exit status 1
+15 error npm ERR!
+15 error npm ERR! Failed at the electron-app@0.0.0 prepare script.
+15 error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+15 error
+15 error npm ERR! A complete log of this run can be found in:
+15 error npm ERR!     /home/ubuntu/.npm/_logs/2019-05-25T13_13_54_897Z-debug.log
+15 error
+15 error
+15 error > electron-app@0.0.0 prepare /home/ubuntu/theia2/theia/programmr_openfile/electron-app
+15 error > theia build --mode development
+15 error
+15 error Hash: c5cebc2058d994622691
+15 error Version: webpack 4.32.2
+15 error Time: 37428ms
+15 error Built at: 05/25/2019 1:13:53 PM
+15 error                                   Asset      Size  Chunks             Chunk Names
+15 error                             0.bundle.js  34.3 KiB       0  [emitted]
+15 error                         0.bundle.js.map  42.3 KiB       0  [emitted]
+15 error  0a32a80243e05284a5d741c5dc093f31.woff2  23.8 KiB          [emitted]
+15 error                             1.bundle.js   123 KiB       1  [emitted]
+15 error                         1.bundle.js.map   108 KiB       1  [emitted]
+15 error                            10.bundle.js  14.9 KiB      10  [emitted]
+15 error                        10.bundle.js.map  15.3 KiB      10  [emitted]
+15 error                            11.bundle.js   269 KiB      11  [emitted]
+15 error                        11.bundle.js.map   280 KiB      11  [emitted]
+15 error  11d1a2390613abf202bfd2ebbd5c4500.woff2  88.6 KiB          [emitted]
+15 error                            12.bundle.js  76.2 KiB      12  [emitted]
+15 error                        12.bundle.js.map  84.7 KiB      12  [emitted]
+15 error                            13.bundle.js  23.1 KiB      13  [emitted]
+15 error                        13.bundle.js.map  18.3 KiB      13  [emitted]
+15 error                            14.bundle.js  56.9 KiB      14  [emitted]
+15 error                        14.bundle.js.map  62.5 KiB      14  [emitted]
+15 error                            15.bundle.js  17.9 KiB      15  [emitted]
+15 error                        15.bundle.js.map  15.4 KiB      15  [emitted]
+15 error                            16.bundle.js  16.4 KiB      16  [emitted]
+15 error                        16.bundle.js.map  14.3 KiB      16  [emitted]
+15 error                            17.bundle.js   478 KiB      17  [emitted]
+15 error                        17.bundle.js.map   881 KiB      17  [emitted]
+15 error                            18.bundle.js   312 KiB      18  [emitted]
+15 error                        18.bundle.js.map   304 KiB      18  [emitted]
+15 error                            19.bundle.js   144 KiB      19  [emitted]
+15 error                        19.bundle.js.map   128 KiB      19  [emitted]
+15 error                             2.bundle.js  14.2 KiB       2  [emitted]
+15 error                         2.bundle.js.map   9.1 KiB       2  [emitted]
+15 error                            20.bundle.js   163 KiB      20  [emitted]
+15 error                        20.bundle.js.map   126 KiB      20  [emitted]
+15 error                            21.bundle.js   105 KiB      21  [emitted]
+15 error                        21.bundle.js.map  78.6 KiB      21  [emitted]
+15 error                            22.bundle.js  76.3 KiB      22  [emitted]
+15 error                        22.bundle.js.map  60.6 KiB      22  [emitted]
+15 error                            23.bundle.js  43.5 KiB      23  [emitted]
+15 error                        23.bundle.js.map  24.5 KiB      23  [emitted]
+15 error                            24.bundle.js  37.6 KiB      24  [emitted]
+15 error                        24.bundle.js.map  28.2 KiB      24  [emitted]
+15 error                            25.bundle.js  32.4 KiB      25  [emitted]
+15 error                        25.bundle.js.map  35.5 KiB      25  [emitted]
+15 error                            26.bundle.js  13.8 KiB      26  [emitted]
+15 error                        26.bundle.js.map  9.21 KiB      26  [emitted]
+15 error                            27.bundle.js  32.5 KiB      27  [emitted]
+15 error                        27.bundle.js.map  30.6 KiB      27  [emitted]
+15 error                            28.bundle.js  21.5 KiB      28  [emitted]
+15 error                        28.bundle.js.map  17.2 KiB      28  [emitted]
+15 error                            29.bundle.js  14.4 KiB      29  [emitted]
+15 error                        29.bundle.js.map  16.8 KiB      29  [emitted]
+15 error                             3.bundle.js  39.2 KiB       3  [emitted]
+15 error                         3.bundle.js.map  33.6 KiB       3  [emitted]
+15 error                            30.bundle.js  14.4 KiB      30  [emitted]
+15 error                        30.bundle.js.map  16.8 KiB      30  [emitted]
+15 error                            31.bundle.js   6.6 KiB      31  [emitted]
+15 error                        31.bundle.js.map  4.64 KiB      31  [emitted]
+15 error                            32.bundle.js  4.77 KiB      32  [emitted]
+15 error                        32.bundle.js.map  3.35 KiB      32  [emitted]
+15 error                            33.bundle.js  9.35 KiB      33  [emitted]
+15 error                        33.bundle.js.map  15.3 KiB      33  [emitted]
+15 error                            34.bundle.js  8.39 KiB      34  [emitted]
+15 error                        34.bundle.js.map  5.94 KiB      34  [emitted]
+15 error                            35.bundle.js  13.7 KiB      35  [emitted]
+15 error                        35.bundle.js.map  16.3 KiB      35  [emitted]
+15 error                            36.bundle.js  13.7 KiB      36  [emitted]
+15 error                        36.bundle.js.map  16.3 KiB      36  [emitted]
+15 error                            37.bundle.js  13.7 KiB      37  [emitted]
+15 error                        37.bundle.js.map  16.3 KiB      37  [emitted]
+15 error                            38.bundle.js  13.7 KiB      38  [emitted]
+15 error                        38.bundle.js.map  16.3 KiB      38  [emitted]
+15 error                            39.bundle.js  13.7 KiB      39  [emitted]
+15 error                        39.bundle.js.map  16.3 KiB      39  [emitted]
+15 error                             4.bundle.js  24.8 KiB       4  [emitted]
+15 error                         4.bundle.js.map  16.9 KiB       4  [emitted]
+15 error                            40.bundle.js  13.7 KiB      40  [emitted]
+15 error                        40.bundle.js.map  16.3 KiB      40  [emitted]
+15 error                            41.bundle.js  13.7 KiB      41  [emitted]
+15 error                        41.bundle.js.map  16.3 KiB      41  [emitted]
+15 error                            42.bundle.js  13.7 KiB      42  [emitted]
+15 error                        42.bundle.js.map  16.3 KiB      42  [emitted]
+15 error                            43.bundle.js  2.75 KiB      43  [emitted]
+15 error                        43.bundle.js.map  2.48 KiB      43  [emitted]
+15 error                             5.bundle.js   847 KiB       5  [emitted]
+15 error                         5.bundle.js.map   895 KiB       5  [emitted]
+15 error                             6.bundle.js  30.4 KiB       6  [emitted]
+15 error                         6.bundle.js.map  28.1 KiB       6  [emitted]
+15 error    674f50d287a8c48dc19ba404d20fe713.eot   162 KiB          [emitted]
+15 error                             7.bundle.js    59 KiB       7  [emitted]
+15 error                         7.bundle.js.map  63.6 KiB       7  [emitted]
+15 error                             8.bundle.js   577 KiB       8  [emitted]
+15 error                         8.bundle.js.map   683 KiB       8  [emitted]
+15 error                             9.bundle.js   182 KiB       9  [emitted]
+15 error                         9.bundle.js.map   192 KiB       9  [emitted]
+15 error    912ec66d7572ff821749319396470bde.svg   434 KiB          [emitted]
+15 error   98efdb1150c6b8050818b3ea2552b15b.wasm   621 KiB          [emitted]
+15 error  af7ae505a9eed503f8b8e6982036873e.woff2  75.4 KiB          [emitted]
+15 error    b06871f281fee6b241d60582ae9369b9.ttf   162 KiB          [emitted]
+15 error                               bundle.js  4.59 MiB    main  [emitted]  main
+15 error                           bundle.js.map  4.87 MiB    main  [emitted]  main
+15 error    cf2aabacdc2b3a5768b03545cb1d8330.svg    21 KiB          [emitted]
+15 error  de59a97248b44599e6747a27a943f738.woff2  19.8 KiB          [emitted]
+15 error  e19892df121e7f85c61754c54bbb7951.woff2  48.6 KiB          [emitted]
+15 error    e817279537a0417d042f62fbb1b99eea.gif  43.1 KiB          [emitted]
+15 error   fee66e712a8a08eef5805a46892932ad.woff  95.7 KiB          [emitted]
+15 error            vs/base/worker/workerMain.js   489 KiB          [emitted]
+15 error        vs/base/worker/workerMain.js.map   661 KiB          [emitted]
+15 error               vs/editor/editor.main.css   255 KiB          [emitted]
+15 error                vs/editor/editor.main.js  5.19 MiB          [emitted]
+15 error            vs/editor/editor.main.js.map  8.03 MiB          [emitted]
+15 error         vs/editor/editor.main.nls.de.js  41.3 KiB          [emitted]
+15 error         vs/editor/editor.main.nls.es.js  41.8 KiB          [emitted]
+15 error         vs/editor/editor.main.nls.fr.js  45.2 KiB          [emitted]
+15 error         vs/editor/editor.main.nls.it.js  43.5 KiB          [emitted]
+15 error         vs/editor/editor.main.nls.ja.js  45.9 KiB          [emitted]
+15 error            vs/editor/editor.main.nls.js  35.6 KiB          [emitted]
+15 error         vs/editor/editor.main.nls.ko.js  41.9 KiB          [emitted]
+15 error         vs/editor/editor.main.nls.ru.js    63 KiB          [emitted]
+15 error      vs/editor/editor.main.nls.zh-cn.js  34.2 KiB          [emitted]
+15 error      vs/editor/editor.main.nls.zh-tw.js  34.3 KiB          [emitted]
+15 error              vs/language/css/cssMode.js  28.2 KiB          [emitted]
+15 error            vs/language/css/cssWorker.js   597 KiB          [emitted]
+15 error  vs/language/css/monaco.contribution.js  2.11 KiB          [emitted]
+15 error            vs/language/html/htmlMode.js  27.3 KiB          [emitted]
+15 error          vs/language/html/htmlWorker.js   337 KiB          [emitted]
+15 error vs/language/html/monaco.contribution.js  2.14 KiB          [emitted]
+15 error                            vs/loader.js  77.8 KiB          [emitted]
+15 error                        vs/loader.js.map    88 KiB          [emitted]
+15 error Entrypoint main = bundle.js bundle.js.map
+15 error [../node_modules/moment/locale sync recursive ^\.\/.*$] ../node_modules/moment/locale sync ^\.\/.*$ 3 KiB {29} {30} {35} {36} {37} {38} {39} {40} {41} {42} [optional] [built]
+15 error [../node_modules/vscode-textmate/release sync recursive] ../node_modules/vscode-textmate/release sync 160 bytes {29} {30} [built]
+15 error [./src-gen/frontend/index.js] 3.93 KiB {main} [built]
+15 error [crypto] external "crypto" 42 bytes {main} [built]
+15 error [electron] external "electron" 42 bytes {main} [built]
+15 error [net] external "net" 42 bytes {main} [built]
+15 error [os] external "os" 42 bytes {main} [built]
+15 error [path] external "path" 42 bytes {main} [built]
+15 error [util] external "util" 42 bytes {main} [built]
+15 error     + 1156 hidden modules
+15 error
+15 error WARNING in ../node_modules/vscode-textmate/release/main.js 23:15-27
+15 error Critical dependency: the request of a dependency is an expression
+15 error  @ ../node_modules/@theia/monaco/lib/browser/textmate/monaco-theme-registry.js
+15 error  @ ../node_modules/@theia/monaco/lib/browser/textmate/monaco-textmate-frontend-bindings.js
+15 error  @ ../node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js
+15 error  @ ../node_modules/@theia/monaco/lib/electron-browser/monaco-electron-module.js
+15 error  @ ./src-gen/frontend/index.js
+15 error
+15 error WARNING in ../node_modules/vscode-textmate/release/main.js
+15 error Module Warning (from ../node_modules/source-map-loader/index.js):
+15 error (Emitted value instead of an instance of Error) Cannot find SourceMap 'main.js.map': Error: Can't resolve './main.js.map' in '/home/ubuntu/theia2/theia/programmr_openfile/node_modules/vscode-textmate/release'
+15 error  @ ../node_modules/@theia/monaco/lib/browser/textmate/monaco-theme-registry.js 60:24-50
+15 error  @ ../node_modules/@theia/monaco/lib/browser/textmate/monaco-textmate-frontend-bindings.js
+15 error  @ ../node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js
+15 error  @ ../node_modules/@theia/monaco/lib/electron-browser/monaco-electron-module.js
+15 error  @ ./src-gen/frontend/index.js
+15 error
+15 error WARNING in ../node_modules/typescript-language-server/lib/commands.js
+15 error Module Warning (from ../node_modules/source-map-loader/index.js):
+15 error (Emitted value instead of an instance of Error) Cannot find source file '../src/commands.ts': Error: Can't resolve '../src/commands.ts' in '/home/ubuntu/theia2/theia/programmr_openfile/node_modules/typescript-language-server/lib'
+15 error  @ ../node_modules/@theia/typescript/lib/browser/typescript-frontend-contribution.js 93:17-67
+15 error  @ ../node_modules/@theia/typescript/lib/browser/typescript-frontend-module.js
+15 error  @ ./src-gen/frontend/index.js
+15 error
+15 error ERROR in ./src-gen/frontend/index.js
+15 error Module not found: Error: Can't resolve 'programmr_openfile/lib/browser/programmr_openfile-frontend-module' in '/home/ubuntu/theia2/theia/programmr_openfile/electron-app/src-gen/frontend'
+15 error  @ ./src-gen/frontend/index.js 58:31-106
+15 error
+15 error
+15 error     at Promise.all.then.arr (/home/ubuntu/theia2/theia/programmr_openfile/node_modules/lerna/node_modules/execa/index.js:236:11)
